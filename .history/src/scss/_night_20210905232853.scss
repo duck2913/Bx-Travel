@@ -1,0 +1,12 @@
+.night {
+	&__container {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	&__text {
+		flex-basis: 60%;
+		font-size: 1.8rem;
+		line-height: 1.5;
+	}
+}

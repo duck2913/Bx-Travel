@@ -1,0 +1,18 @@
+.night {
+	&__container {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+
+	&__text {
+		flex-basis: 60%;
+		font-size: 1.8rem;
+		line-height: 1.5;
+	}
+	&__img {
+		background-image: url(../img/lake.webp);
+		height: 60rem;
+		background-size: cover;
+	}
+}

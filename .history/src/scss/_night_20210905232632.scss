@@ -1,0 +1,9 @@
+.night {
+	&__container {
+		display: flex;
+	}
+
+	&__text {
+		flex-basis: 60%;
+	}
+}

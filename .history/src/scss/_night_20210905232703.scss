@@ -1,0 +1,11 @@
+.night {
+	&__container {
+		gap: 3rem;
+		display: flex;
+		align-items: center;
+	}
+
+	&__text {
+		flex-basis: 60%;
+	}
+}

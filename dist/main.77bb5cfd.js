@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\road.webp":[["road.3475cabc.webp","img/road.webp"],"img/road.webp"],"./..\\img\\highway.webp":[["highway.f7d7a356.webp","img/highway.webp"],"img/highway.webp"],"./..\\img\\landscape.webp":[["landscape.30ae50b9.webp","img/landscape.webp"],"img/landscape.webp"],"./..\\img\\standingonmountain.webp":[["standingonmountain.a5639b6b.webp","img/standingonmountain.webp"],"img/standingonmountain.webp"],"./..\\img\\village.webp":[["village.a474143a.webp","img/village.webp"],"img/village.webp"],"./..\\img\\forest.webp":[["forest.efc9462e.webp","img/forest.webp"],"img/forest.webp"],"./..\\img\\feature-bg.svg":[["feature-bg.fbc503ab.svg","img/feature-bg.svg"],"img/feature-bg.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\img\\road.webp":[["road.3475cabc.webp","img/road.webp"],"img/road.webp"],"./..\\img\\highway.webp":[["highway.f7d7a356.webp","img/highway.webp"],"img/highway.webp"],"./..\\img\\landscape.webp":[["landscape.30ae50b9.webp","img/landscape.webp"],"img/landscape.webp"],"./..\\img\\standingonmountain.webp":[["standingonmountain.a5639b6b.webp","img/standingonmountain.webp"],"img/standingonmountain.webp"],"./..\\img\\village.webp":[["village.a474143a.webp","img/village.webp"],"img/village.webp"],"./..\\img\\forest.webp":[["forest.efc9462e.webp","img/forest.webp"],"img/forest.webp"],"./..\\img\\feature-bg.svg":[["feature-bg.fbc503ab.svg","img/feature-bg.svg"],"img/feature-bg.svg"],"./..\\img\\lake.webp":[["lake.fc283409.webp","img/lake.webp"],"img/lake.webp"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51282" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64653" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
