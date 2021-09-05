@@ -1,0 +1,33 @@
+.places {
+	&__list {
+		margin: 0 auto;
+		max-width: 90rem;
+		display: grid;
+		grid-template-columns: 40rem 20rem 30rem;
+		grid-template-rows: 15rem 33rem 4rem 48rem;
+		row-gap: 2rem;
+		column-gap: 3rem;
+	}
+
+	.road {
+		background-image: url(../img/highway.webp);
+		grid-column: 1/3;
+		grid-row: 1/3;
+		background-size: cover;
+	}
+	.explore {
+		background-image: url(../img/landscape.webp);
+		grid-column: 3/4;
+		grid-row: 2/3;
+		background-size: cover;
+	}
+	.mountain {
+		background-image: url(../img/standingonmountain.webp);
+	}
+	.sea {
+		background-image: url(../img/sea.webp);
+		grid-column: 1/2;
+		grid-row: 4/5;
+		background-size: cover;
+	}
+}

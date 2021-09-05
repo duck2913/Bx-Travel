@@ -1,0 +1,9 @@
+.places {
+	&__list {
+		display: grid;
+		grid: auto / repeat(4, auto);
+		gap: 4rem;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+	}
+}

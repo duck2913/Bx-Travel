@@ -1,0 +1,11 @@
+.places {
+	&__list {
+		display: flex;
+		gap: 3rem;
+		overflow-x: auto;
+	}
+
+	&__item {
+		min-height: 45rem;
+	}
+}

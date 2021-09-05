@@ -1,0 +1,25 @@
+.places {
+	&__list {
+		margin: 0 auto;
+		max-width: 90rem;
+		display: grid;
+	}
+
+	.road {
+		background-image: url(../img/highway.webp);
+		background-size: cover;
+	}
+	.explore {
+		background-image: url(../img/landscape.webp);
+
+		background-size: cover;
+	}
+	.mountain {
+		background-image: url(../img/standingonmountain.webp);
+		background-size: cover;
+	}
+	.sea {
+		background-image: url(../img/sea.webp);
+		background-size: cover;
+	}
+}

@@ -1,0 +1,17 @@
+.places {
+	&__list {
+		display: grid;
+		grid-template-columns: 40rem 20rem 30rem;
+	}
+
+	.road {
+		background-image: url(../img/highway.webp);
+	}
+	.explore {
+		background-image: url(../img/landscape.webp);
+	}
+	.mountain {
+	}
+	.sea {
+	}
+}

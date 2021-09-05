@@ -1,0 +1,35 @@
+.places {
+	&__list {
+		margin: 0 auto;
+		max-width: 90rem;
+		display: grid;
+		grid-template-columns: 40rem 20rem 30rem;
+		grid-template-rows: 15rem 31rem 50rem;
+	}
+
+	.road {
+		background-image: url(../img/highway.webp);
+		background-size: cover;
+		grid-column: 1/3;
+		grid-row: 1/3;
+	}
+	.explore {
+		background-image: url(../img/landscape.webp);
+
+		background-size: cover;
+	}
+	.mountain {
+		background-image: url(../img/standingonmountain.webp);
+		background-size: cover;
+	}
+	.village {
+		background-image: url(../img/village.webp);
+		background-size: cover;
+		grid-column: 3/4;
+		grid-row: 1/2;
+	}
+	.forest {
+		background-image: url(../img/forest.webp);
+		background-size: cover;
+	}
+}

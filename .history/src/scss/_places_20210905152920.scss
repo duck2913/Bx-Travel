@@ -1,0 +1,11 @@
+.places {
+	&__list {
+		display: flex;
+		overflow-x: auto;
+		scroll-snap-type: x mandatory;
+	}
+
+	&__img {
+		scroll-snap-align: center;
+	}
+}

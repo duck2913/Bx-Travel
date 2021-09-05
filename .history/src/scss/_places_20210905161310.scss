@@ -1,0 +1,10 @@
+.places {
+	&__list {
+		display: flex;
+		gap: 4rem;
+	}
+	&__item {
+		width: 36rem;
+		height: 45rem;
+	}
+}

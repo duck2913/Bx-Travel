@@ -1,0 +1,12 @@
+.places {
+	&__list {
+		display: grid;
+		grid: auto / repeat(4, auto);
+		gap: 4rem;
+		overflow: auto;
+	}
+
+	&__img {
+		scroll-snap-align: center;
+	}
+}

@@ -1,0 +1,26 @@
+.places {
+	&__list {
+		display: grid;
+		justify-content: flex-start;
+		grid-auto-columns: 50rem;
+		grid-auto-flow: column;
+		grid-gap: 1.5rem;
+		overflow: auto;
+		overflow-y: hidden;
+		scroll-snap-type: x mandatory;
+		scroll-snap-stop: always;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		-webkit-overflow-scrolling: touch;
+		scroll-padding: 1rem;
+		grid-template-columns: unset;
+
+		scroll-behavior: $color-green;
+		&::-webkit-scrollbar {
+			width: 1rem;
+		}
+		&::-webkit-scrollbar-thumb {
+			color: $color-red;
+		}
+	}
+}

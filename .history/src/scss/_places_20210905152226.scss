@@ -1,0 +1,8 @@
+.places {
+	&__list {
+		display: flex;
+		gap: 4rem;
+		overflow: auto;
+		scroll-snap-type: x mandatory;
+	}
+}

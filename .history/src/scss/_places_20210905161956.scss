@@ -1,0 +1,17 @@
+.places {
+	&__list {
+		max-width: 90rem;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 3rem;
+	}
+
+	&__item {
+		border-radius: 1rem;
+
+		img {
+			border-radius: 1rem;
+		}
+	}
+}

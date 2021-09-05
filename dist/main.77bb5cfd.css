@@ -70,6 +70,7 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   color: white;
+  background-color: #02020a;
 }
 
 .container {
@@ -79,7 +80,7 @@ body {
 }
 
 section {
-  padding: 9.6rem 0;
+  padding: 9rem 0;
 }
 
 .text-center {
@@ -100,17 +101,22 @@ section {
 
 .heading--1 {
   font-size: 8rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: capitalize;
   line-height: 1.2;
 }
 
 .heading--2 {
-  font-size: 4.8rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 6rem;
   text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2;
   margin-bottom: 7rem;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #e9425e, #fe3c26);
 }
 
 .heading--3 {
@@ -120,16 +126,23 @@ section {
   line-height: 1.2;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .text {
   font-size: 1.8rem;
-  line-height: 1.8;
+  line-height: 1.5;
+  color: #eee;
 }
 
 .caption {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 0.2;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+  color: #fe8922;
 }
 
 .border {
@@ -170,12 +183,11 @@ section {
   background-image: linear-gradient(to right bottom, #8c30f5, #e9425e);
 }
 .btn--sub {
-  border: 3px solid white;
+  border: 2px solid white;
   background-color: transparent;
 }
 
 .header {
-  background-color: #777;
   padding: 2rem;
   position: absolute;
   z-index: 2;
@@ -184,7 +196,7 @@ section {
   background-color: transparent;
 }
 .header .logo {
-  transform: translateX(-10%);
+  transform: translateX(-20%);
 }
 .header .nav {
   display: flex;
@@ -194,11 +206,18 @@ section {
 .header .nav__links {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
   color: white;
 }
 .header .nav__link {
+  padding: 1rem 1.5rem;
   font-size: 1.4rem;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+.header .nav__link:not(:last-child):hover {
+  border: 1px solid white;
+  border-radius: 10rem;
 }
 .header .nav__icons {
   display: flex;
@@ -206,22 +225,69 @@ section {
   gap: 2rem;
 }
 .header .nav__icon {
+  cursor: pointer;
   font-size: 1.7rem;
   fill: white;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 5px;
   border-radius: 50%;
+  border: 1px solid transparent;
+  transition: all 0.2s;
+}
+.header .nav__icon:hover {
+  border: 1px solid white;
+}
+.header .active {
+  border: 1px solid white;
+  border-radius: 10rem;
 }
 
 .hero {
   background-image: url(/road.3475cabc.webp);
   background-size: 100%;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   padding: 18rem 0;
 }
 .hero__text-box {
   width: 50%;
+}
+
+.places__list {
+  margin: 0 auto;
+  max-width: 95rem;
+  display: grid;
+  grid-template-columns: 40rem 25rem 30rem;
+  grid-template-rows: 15rem 31rem 50rem;
+  gap: 3rem;
+}
+.places__list > * {
+  border-radius: 1rem;
+}
+.places .road {
+  background-image: url(/highway.f7d7a356.webp);
+  background-size: cover;
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+.places .explore {
+  background-image: url(/landscape.30ae50b9.webp);
+  background-size: cover;
+}
+.places .mountain {
+  background-image: url(/standingonmountain.a5639b6b.webp);
+  background-size: cover;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.places .village {
+  background-image: url(/village.a474143a.webp);
+  background-size: cover;
+}
+.places .forest {
+  background-image: url(/forest.efc9462e.webp);
+  background-size: cover;
+  grid-column: 2/4;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

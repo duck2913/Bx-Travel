@@ -1,0 +1,6 @@
+.places {
+	&__list {
+		display: grid;
+		grid-template-columns: 40rem 20rem 30rem;
+	}
+}

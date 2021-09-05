@@ -1,0 +1,6 @@
+.places {
+	position: relative;
+	&::before {
+		position: absolute;
+	}
+}

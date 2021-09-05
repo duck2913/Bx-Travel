@@ -1,0 +1,5 @@
+.places {
+	&__list {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

@@ -1,0 +1,13 @@
+.places {
+	&__list {
+		display: flex;
+		gap: 2rem;
+	}
+	&__item {
+		min-height: 45rem;
+
+		img {
+			object-fit: cover;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+.places {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 10rem;
+		background-image: linear-gradient(to top, $color-black, white);
+	}
+}
