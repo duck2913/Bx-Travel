@@ -1,0 +1,24 @@
+.features {
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 3rem;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		background-color: #1b1b1b;
+		align-items: center;
+		padding: 2rem 0;
+		gap: 4rem;
+		min-height: 34rem;
+		justify-content: space-around;
+		text-align: center;
+	}
+
+	&__icon {
+		width: 5.4rem;
+		height: 5.4rem;
+	}
+}

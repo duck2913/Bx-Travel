@@ -1,0 +1,39 @@
+.features {
+	background-image: url(../img/feature-bg.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 15rem;
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 8rem;
+	}
+
+	&__item {
+		border-radius: 2rem;
+		box-shadow: 1rem 1rem 0rem rgba(grey, 0.1);
+		display: flex;
+		flex-direction: column;
+		background-color: #1b1b1b;
+		align-items: center;
+		padding: 2rem 0;
+		gap: 4rem;
+		min-height: 34rem;
+		justify-content: space-around;
+		text-align: center;
+	}
+
+	&__icon {
+		width: 5.4rem;
+		height: 5.4rem;
+	}
+
+	position: relative;
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		width: 100%;
+	}
+}

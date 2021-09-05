@@ -1,0 +1,11 @@
+.features {
+	&__list {
+		display: flex;
+		align-items: center;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+	}
+}

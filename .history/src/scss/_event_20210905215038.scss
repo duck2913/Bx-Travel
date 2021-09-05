@@ -1,0 +1,14 @@
+.event {
+	&__container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		colum-gap: 2rem;
+		row-gap: ;
+	}
+
+	&__text-box {
+		display: flex;
+		gap: 3rem;
+		flex-direction: column;
+	}
+}

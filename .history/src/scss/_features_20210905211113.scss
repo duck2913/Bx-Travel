@@ -1,0 +1,14 @@
+.features {
+	&__list {
+		display: flex;
+		justify-content: space-evenly;
+		gap: 3rem;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		padding: 3rem 6rem;
+		justify-content: center;
+	}
+}

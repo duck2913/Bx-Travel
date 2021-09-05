@@ -1,0 +1,11 @@
+.event {
+	&__container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	&__img-box {
+		background-image: url(../img/event1.png);
+		background-size: cover;
+	}
+}
