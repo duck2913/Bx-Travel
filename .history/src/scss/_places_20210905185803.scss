@@ -7,18 +7,15 @@
 		grid-template-rows: 15rem 31rem 50rem;
 		gap: 3rem;
 
-		& > * {
-			border-radius: 1rem;
+    }
+
+    &__item{
+        			border-radius: 1rem;
 			position: relative;
 			&:hover {
 				&::before {
 					cursor: pointer;
 					height: 25%;
-				}
-
-				.places__text {
-					left: 5%;
-					opacity: 80%;
 				}
 			}
 			&::before {
@@ -32,7 +29,7 @@
 				transition: all 0.4s;
 			}
 		}
-	}
+    }
 
 	&__btn {
 		transform: translateX(10%);
@@ -68,7 +65,5 @@
 		position: absolute;
 		bottom: 5%;
 		left: -100%;
-		opacity: 0;
-		transition: all 0.4s ease-in-out;
 	}
 }

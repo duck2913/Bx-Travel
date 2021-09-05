@@ -13,12 +13,7 @@
 			&:hover {
 				&::before {
 					cursor: pointer;
-					height: 25%;
-				}
-
-				.places__text {
-					left: 5%;
-					opacity: 80%;
+					height: 40%;
 				}
 			}
 			&::before {
@@ -26,10 +21,10 @@
 				left: 0;
 				bottom: 0;
 				content: "";
-				width: 100%;
+				width: 0%;
 				height: 0%;
 				background-image: linear-gradient(to top, $color-black, transparent);
-				transition: all 0.4s;
+				transition: all 0.3s ease-in-out;
 			}
 		}
 	}
@@ -62,13 +57,5 @@
 		background-image: url(../img/forest.webp);
 		background-size: cover;
 		grid-column: 2/4;
-	}
-
-	&__text {
-		position: absolute;
-		bottom: 5%;
-		left: -100%;
-		opacity: 0;
-		transition: all 0.4s ease-in-out;
 	}
 }
