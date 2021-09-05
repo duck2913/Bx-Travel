@@ -1,0 +1,19 @@
+.header {
+	background-color: #777;
+
+	.logo {
+	}
+	.nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&__links {
+		}
+		&__link {
+		}
+		&__icons {
+		}
+		&__icon {
+		}
+	}
+}

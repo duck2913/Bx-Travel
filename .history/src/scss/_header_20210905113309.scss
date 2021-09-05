@@ -1,0 +1,22 @@
+.header {
+	background-color: #777;
+	padding: 2.5rem 2rem;
+	.logo {
+	}
+	.nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&__links {
+			display: flex;
+			align-items: center;
+		}
+		&__link {
+		}
+		&__icons {
+		}
+		&__icon {
+		}
+	}
+}

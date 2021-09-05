@@ -1,0 +1,14 @@
+.btn {
+	min-width: 20rem;
+	padding: 1rem 3rem;
+	border: none;
+	font-size: 3rem;
+	font-weight: 600;
+	color: white;
+	border-radius: 1.8rem;
+	margin-right: 3rem;
+	transition: all 0.2s ease-in-out;
+	&:hover {
+		transform: translateY(-1rem);
+	}
+}

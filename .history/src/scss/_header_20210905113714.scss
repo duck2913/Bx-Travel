@@ -1,0 +1,29 @@
+.header {
+	background-color: #777;
+	padding: 2.5rem 2rem;
+	.logo {
+		transform: translateX(-30%);
+	}
+	.nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&__links {
+			display: flex;
+			align-items: center;
+			gap: 3rem;
+			color: white;
+		}
+		&__link {
+			font-size: 1.4rem;
+		}
+
+		&__icons {
+			display: flex;
+			align-items: center;
+		}
+		&__icon {
+		}
+	}
+}
