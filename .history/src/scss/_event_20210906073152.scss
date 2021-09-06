@@ -1,0 +1,21 @@
+.event {
+	&__container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 8rem 5rem;
+		align-items: center;
+	}
+
+	&__text-box {
+		display: flex;
+		gap: 3rem;
+		flex-direction: column;
+	}
+
+	display: block;
+	@include maxW(767px) {
+		&__container {
+			grid-template-columns: 1fr;
+		}
+	}
+}

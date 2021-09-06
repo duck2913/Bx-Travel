@@ -1,0 +1,14 @@
+.hero {
+	background-image: url(../img/road.webp);
+	background-size: 100%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+
+	padding: 18rem 0 10rem;
+
+	&__text-box {
+		width: 50%;
+	}
+
+	display: block;
+}
